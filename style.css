@@ -1,0 +1,54 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.auto {
+  padding: 15px;
+  background: white;
+  width: 200px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.auto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.auto li {
+  margin: 12px 0 0 0px;
+}
+.auto a {
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  position: relative;
+  transition: 0.3s linear;
+}
+.auto a:after {
+  content: "\f18e";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 5px;
+  color: white;
+  transition: 0.2s linear;
+}
+.auto a:hover {
+  background: #80c8a0;
+  color: white;
+}
+div {
+  margin: 10px;
+  padding: 10px;
+}
